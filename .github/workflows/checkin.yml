@@ -1,5 +1,5 @@
 name: AnyRouter 自动签到
-于:
+on:
   schedule:
     - cron: '0 */4 * * *'
   workflow_dispatch:
